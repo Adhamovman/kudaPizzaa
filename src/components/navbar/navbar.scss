@@ -1,0 +1,40 @@
+.location {
+  background-color: #fff;
+  border: none !important;
+}
+
+.secendaryNav {
+  border-bottom: 1px solid #f0f0f0;
+}
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbarDropdown .dropdown-menu {
+  border: 1px solid #f0f0f0 !important;
+  box-shadow: 0px 2px 8px rgba(25, 25, 25, 0.1) ;
+  border-radius: 12px;
+  @media screen and (max-width: 992px) {
+    border: none !important;
+    box-shadow: none;
+  }
+}
+#header{
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+.favourite-nav-btn {
+  img {
+    max-width: 24px;
+  }
+}
+.counter {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
